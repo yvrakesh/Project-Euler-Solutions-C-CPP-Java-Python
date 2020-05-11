@@ -16,3 +16,4 @@ for i in range(int(input())):
         if j<n:
             s += j
     print(s)
+# Explanation: Firstly found all the even fibonacci numbers and stored in list v.Then summation of all elements of array until that input number.

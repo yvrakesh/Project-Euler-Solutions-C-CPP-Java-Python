@@ -11,3 +11,13 @@ public class file{
         }
     }
 }
+
+
+/*EXPLANATION:
+    No. of numbers that are multiples of k are floor(n/k)
+    The numbers are k,2k,3k,.....(n/k)*k
+    Hence their sum is k+2*k+3*k+....+(n/k)*k
+    k(1+2+3+.....(n/k))
+    k*((n/k)*(n/k+1))/2
+    (k*(n/k)*(n/k+1))>>1    #right shift
+*/

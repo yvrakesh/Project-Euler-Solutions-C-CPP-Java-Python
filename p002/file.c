@@ -15,10 +15,8 @@ int main(){
     }
     int t;
     scanf("%d",&t);
-    ll sum;
     for(int i=0;i<t;i++){
-        sum=0;
-        ll n;
+        ll sum=0,n;
         scanf("%lld",&n);
         for(int i=0;v[i]<=n;i++)
             sum += v[i];
@@ -26,3 +24,10 @@ int main(){
     }
     return 0;
 }
+
+
+/*
+    Explanation:
+        Firstly found all the even fibonacci numbers and stored in an array v[].Then
+    summation of all elements of array until that input number.
+*/

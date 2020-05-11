@@ -18,10 +18,8 @@ int main(){
     }
     int t;
     cin>>t;
-    ll sum;
     for(int i=0;i<t;i++){
-        sum=0;
-        ll n;
+        ll sum=0,n;
         cin>>n;
         for(auto j=v.begin();j!=v.end() && (*j)<=n ;j++)
             sum += *j;
@@ -29,3 +27,10 @@ int main(){
     }
     return 0;
 }
+
+
+/*
+    Explanation:
+        Firstly found all the even fibonacci numbers and stored in the vector v.Then
+    summation of all elements of array until that input number.
+*/
