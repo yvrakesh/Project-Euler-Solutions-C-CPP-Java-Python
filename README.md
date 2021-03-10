@@ -9,7 +9,7 @@ Here you can find about 750 questions on maths which are really excellent and in
 
 Link to hackerrank's project euler contest : https://www.hackerrank.com/contests/projecteuler/challenges
 
-Here you can find about 250 questions with test cases and time limit. I think this is better way of solving those problems.
+Here in hackerrank you can find about 250 questions with test cases and time limit. I think this is better way of solving those problems.
 
 This is not to spoil the efforts of thousands of people in framing the questions for project euler. But I hope that providing solutions step by step help to educate them regarding. I personally faced lots of time(months) on those problems for getting the solutions.
 
